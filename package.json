@@ -10,8 +10,11 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^21.0.3",
+    "@cypress/webpack-preprocessor": "^6.0.2",
     "cypress": "^13.16.1",
     "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-xpath": "^2.0.1",
     "dotenv": "^16.4.7"
   }
 }
