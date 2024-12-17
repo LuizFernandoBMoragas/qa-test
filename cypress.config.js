@@ -8,6 +8,7 @@ module.exports = defineConfig({
     TAGS: 'not @not-automated',
   },
   e2e: {
+    chromeWebSecurity: false,
     async setupNodeEvents(on, config) {
       await addCucumberPreprocessorPlugin(on, config);
       on(
