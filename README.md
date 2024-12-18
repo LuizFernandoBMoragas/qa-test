@@ -57,25 +57,25 @@ QA-TEST/
 
 ## Setup Instructions
 ### Clone the repository:
-
+```bash
 git clone <repository-url>
 cd QA-TEST
-
+```
 ### Install dependencies:
-
+```bash
 npm install
-
+```
 ## Running Tests
 
 ### Run all Cypress tests in headed or headless mode:
-
+```bash
 npx cypress open    # Opens Cypress Test Runner
 npx cypress run     # Runs tests in headless mode
-
+```
 ### To run a specific test:
-
+```bash
 npx cypress run "cypress/e2e/add-to-cart/addToBasket.js"
-
+```
 ## Custom Commands
 
 Custom Cypress commands can be found in cypress/support/commands.js
@@ -84,7 +84,9 @@ Custom Cypress commands can be found in cypress/support/commands.js
 
 ### Detailed documentation can be found in the docs/ folder:
 productPage.md: Answers to QA-related question 1.5.
+
 removeButton.md: Answers to QA-related question 1.4.
+
 theoreticalQuestions.md: Answers to QA-related question 1.4.
 
 ## Notes
